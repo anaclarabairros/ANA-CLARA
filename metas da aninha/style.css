@@ -2,11 +2,11 @@
 
 :root{
     --cor-de-fundo: #edcaf0;
-    --texto1: #8d0a4b;
+    --texto1: #a00452;
     --texto2: #c439ac;
-    --botao-ativo: #0b80ee;
-    --botao-inativo: rgba(27, 6, 250, 0.5);
-    --texto-fundo: rgba(207, 125, 240, 0.3);
+    --botao-ativo: #f10bd3;
+    --botao-inativo: rgba(197, 68, 236, 0.5);
+    --texto-fundo: rgba(170, 146, 167, 0.3);
 }
 
 body{
@@ -15,3 +15,31 @@ body{
     font-family: "Agbalumo", system-ui;
 }
 
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+    margin:0 auto;
+
+}
+
+.titulo-principal{
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+}
+
+.botao{
+    font-family:"Agbalumo", system-ui;
+    background-color: var(--botao-inativo);
+    display:flex;
+    color:var(--texto1);
+    justify-content: center;
+    padding: 1em;
+    font-size: 20px;
+    align-items: center;
+    width: 70%;
+
+}
