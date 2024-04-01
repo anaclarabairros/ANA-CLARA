@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
 
 :root{
-    --cor-de-fundo: #edcaf0;
+    --cor-de-fundo: #edc8f0;
     --texto1: #a00452;
     --texto2: #c439ac;
-    --botao-ativo: #f143d4;
-    --botao-inativo: rgba(197, 68, 236, 0.5);
-    --texto-fundo: rgba(170, 146, 167, 0.3);
+    --botao-ativo: #d84fd1e5;
+    --botao-inativo: rgba(245, 100, 226, 0.774);
+    --texto-fundo: rgba(231, 149, 220, 0.767);
 }
 
 body{
@@ -57,5 +57,5 @@ body{
 
 .ativo{
     background: var(--botao-ativo);
-    border-bottom: 4px solid rgb(179, 2, 111);
+    border-bottom: 4px solid rgb(134, 29, 94);
 }
