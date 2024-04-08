@@ -6,7 +6,7 @@
     --texto2: #c439ac;
     --botao-ativo: #d84fd1e5;
     --botao-inativo: rgba(245, 100, 226, 0.774);
-    --texto-fundo: rgba(231, 149, 220, 0.767);
+    --texto-fundo: rgba(224, 147, 214, 0.767);
 }
 
 body{
@@ -48,14 +48,20 @@ body{
 }
 
 .botao:first-child{
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 0;
 }
 
 .botao:last-child{
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 0 0;
 }
 
 .ativo{
     background: var(--botao-ativo);
     border-bottom: 4px solid rgb(134, 29, 94);
+}
+
+.aba-textos{
+    background-color: var(--texto-fundo);
+    padding: 80px;
+    border-radius: 0 0 40px 40px;
 }
