@@ -32,7 +32,7 @@ body{
 }
 
 .botao{
-    font-family:"Agbalumo", system-ui;
+    font-family: 'Times New Roman', Times, serif;
     background-color: var(--botao-inativo);
     display:flex;
     color:var(--texto1);
@@ -50,6 +50,7 @@ body{
 .botao.ativo{
     background: var(--botao-ativo);
     border-bottom: 3px solid #f072e9;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .aba-conteudo.ativo{
@@ -69,6 +70,7 @@ body{
     color: var(--texto1);
     font-size: 22px;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
  
 
@@ -92,4 +94,6 @@ body{
     font-size: 40px;
     text-align: center;
     padding: 1em;
+    color:#582056;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
